@@ -92,7 +92,7 @@ Contains the following
 
 ---
 
-## [Activity 1.1](activity1.md)
+## [Activity 1.1](activity1.1.md)
 
 ---
 
