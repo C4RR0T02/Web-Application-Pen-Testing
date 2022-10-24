@@ -1,24 +1,12 @@
-# Introduction to WAPT
+# Hacker's view of the web
 
-## CVE Details
-https://cve.mitre.org/cve/search_cve_list.html 
-
-## Random Stuff
-Lesson 1: Pen-Testing is not guaranteed due to the different skills in a team
-
-Pen Test SSL some peopple forget to secure the SSL layer
-
----
-
-## Hacker's view of the web
-
-### Types of Web Server
+## Types of Web Server
 1. Web Servers
 2. Dynamic Servers
 3. Application Servers
 4. Proxy Servers
 
-#### Web Servers
+### Web Servers
 - Very rare for `pure web servers`
 - Static Content only
 - Used for information discovery
@@ -48,7 +36,7 @@ Pen Test SSL some peopple forget to secure the SSL layer
 
 ---
 
-### Why is it important to know the Website Server Architecture?
+## Why is it important to know the Website Server Architecture?
 - Makes attacking easier
     - has features that can be targeted
 - `Application` and the `data` are targets
@@ -59,7 +47,7 @@ Pen Test SSL some peopple forget to secure the SSL layer
 
 ---
 
-#### HTTP Protocol
+### HTTP Protocol
 - Hypertext Transfer Protocol (HTTP)
 - `Request` and `Response` protocol using TCP
 - Has many versions
@@ -68,36 +56,36 @@ Pen Test SSL some peopple forget to secure the SSL layer
     - HTTP/2 - 2015
     - HTTP/3 - 2022
 
-### HTTP Request
+## HTTP Request
 - Request contains a number of header fields
 - usually are optional or added by client / application
 - Modifies logic based user agent string
     - Example when using Windows user agent, it shows a different UI / screen size compared to a Android user agent
 
-#### User Agent
+### User Agent
 - Web clients are considered a User-Agent
     - Usually a browser but not always
 - Can be spoofed
 
-### HTTP Response
+## HTTP Response
 Contains the following
 1. Status code
 2. Server Token
 3. Server Time
 4. Content Length
 
-#### Status Code
+### Status Code
 - Result from the request
 - Often mistaken as error code
 
-#### Server Token
+### Server Token
 - String returned to the web server identifying itself
 - can be spoofed or changed by administrator
 
-#### Server Time
+### Server Time
 - Time stamp based on server's time and date
 
-#### Content Length
+### Content Length
 - Length of the response
 
 **`Header always ends with a blank line`**
@@ -106,11 +94,12 @@ Contains the following
 
 ## [Activity 1.1](activity1.md)
 
+---
 
-### What is HTTPS?
+## What is HTTPS?
 Uses the TCP/IP structure to implement TLS/SSL encryption to protect the data in transit
 
-#### HTTPS Status codes
+### HTTPS Status codes
 
 100s: `Informational codes` indicating request initiated by the browser
 
@@ -126,4 +115,4 @@ Uses the TCP/IP structure to implement TLS/SSL encryption to protect the data in
 
 ## Additional Resources
 1. [How to spoof your User Agent](https://www.howtogeek.com/113439/how-to-change-your-browsers-user-agent-without-installing-any-extensions/)
-2. 
+2. [HTTPS Status Codes and their meanings](https://www.webfx.com/web-development/glossary/http-status-codes/)
