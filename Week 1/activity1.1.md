@@ -1,4 +1,4 @@
-# Activity 1
+# Activity 1.1
 
 When a pen-tester point the URL of his Firefox browser to https://www.ibm.com
 
@@ -52,6 +52,7 @@ Using the `ZAP Proxy Tool`, show the intercepted HTTP Request and Response Heade
 
 ![](activity1.1_images/OWASPZAP-OK-Status-Code.png)  
 
+---
 
 # Additional Resources
 1. [Types of VM Network connections](https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-3B504F2F-7A0B-415F-AE01-62363A95D052.html)

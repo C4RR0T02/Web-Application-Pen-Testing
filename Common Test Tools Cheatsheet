@@ -1,0 +1,52 @@
+# Common Test Tools Cheat Sheet
+
+## Software available in Kali Linux and its uses
+- Nmap 
+    - Server OS Mapping
+
+            nmap -O -
+
+- whatweb 
+    - Web Server Mapping
+
+            whatweb -v <http://Website_ip_address>
+
+- Curl Tool
+    - Mapping of methods supported by web server
+
+            (Bee Box)
+            curl -X OPTIONS <http://Website_ip_address> -i
+
+            (BWAPP)
+            curl -X GET <http://Website_ip_address> -i
+
+            (BWAPP)
+            curl -d "<document file path>" -X PUT <http://Website_ip_address> -v
+
+            (BWAPP)
+            curl -d "<document file path>" -X POST <http://Website_ip_address> -v
+
+            (BWAPP)
+            curl -X DELETE <http://Website_ip_address> -v
+
+            curl -X HEAD <http://Website_ip_address> -v
+
+
+
+
+### Database Errors
+Different database software has different error messages
+
+- MySQL:
+```
+You have an error in your SQL syntax; ...
+```
+
+- Oracle:
+```
+ORA-00933: SQL command not properly ended
+```
+
+- MS SQL Server:
+```
+Microsof
