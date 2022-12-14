@@ -1,10 +1,19 @@
 {
     "cSpell.words": [
         "BWAPP",
+        "dirb",
+        "DVWA",
+        "Fuzzer",
+        "Mutillidae",
         "Nmap",
+        "OWASP",
+        "Picko",
         "RDBMS",
+        "Spidering",
+        "sqlmap",
         "Sybase",
         "WAPT",
-        "whatweb"
+        "whatweb",
+        "wordlists"
     ]
 }
